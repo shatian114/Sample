@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <Button fx:id="getQRBtn" layoutX="242.0" layoutY="186.0" mnemonicParsing="false" text="获取二维码" textFill="#c61b1b" onAction="#showDateTime">
+         <font>
+            <Font name="DejaVu Serif Bold" size="17.0" />
+         </font>
+      </Button>
+      <TextField fx:id="testText" layoutX="207.0" layoutY="316.0" />
+   </children>
+</AnchorPane>
